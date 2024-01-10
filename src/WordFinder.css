@@ -1,0 +1,44 @@
+.WordFinder {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 50px;
+  border-radius: 20px;
+  outline: 2px solid #2e8b57;
+  outline-offset: -10px;
+  background-color: #dde9e2;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.WordFinder .search {
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  border: 2px solid #2e8b57;
+  border-radius: 20px;
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+.WordFinder .form-group {
+  height: 40px;
+  font-size: 15px;
+  padding: 8px 20px;
+  margin-left: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: #2e8b57;
+  color: #fff;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.WordFinder .form-group:hover {
+  background-color: #277047;
+}
+.WordFinder .btn {
+  background: red;
+  color: yellow;
+  margin-top: 15px;
+  margin-left: 120px;
+}
