@@ -23,16 +23,16 @@ export default function App() {
         </a>{" "}
         and is {""}
         <a
-          href="https://github.com/DBusie/weather-app-react"
+          href="https://github.com/DBusie/word-wonder"
           target="_blank"
           rel="noreferrer"
           className="footer-link"
         >
-          open-sourced
+          open-sourced on Github
         </a>{" "}
-        on Github and hosted on{" "}
+        and hosted on{" "}
         <a
-          href="https://voluble-bubblegum-59654e.netlify.app/"
+          href="https://jovial-babka-cbd118.netlify.app/"
           alt="netlify-link"
           target="_blank"
           rel="noreferrer"
