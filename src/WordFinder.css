@@ -1,3 +1,6 @@
+font-family: "Poppins", sans-serif;
+font-family: "Rubik", sans-serif;
+
 .WordFinder {
   max-width: 850px;
   margin: 0 auto;
@@ -8,6 +11,22 @@
   outline-offset: -10px;
   background-color: #dde9e2;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+  font-family: "Poppins", sans-serif;
+}
+
+.WordFinder .form-group h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Pacifico", cursive;
+  color: #4db33d;
+  padding: 1.5em;
 }
 
 .WordFinder .search {
@@ -19,7 +38,42 @@
   background-color: #fff;
   padding-left: 10px;
 }
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
 
+h4 {
+  color: #4db33d;
+}
+
+input {
+  width: 400px;
+  height: 38px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.searchBox > button {
+  background-color: #4db33d;
+  height: 38px;
+  width: 60px;
+  border: none;
+  color: white;
+  box-shadow: 0px 3px 2px #439e34;
+  cursor: pointer;
+  padding: 0;
+}
+
+.showResults {
+  width: 500px;
+  padding: 20px;
+}
+.showResults > h2 > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 .WordFinder .form-group {
   height: 40px;
   font-size: 15px;

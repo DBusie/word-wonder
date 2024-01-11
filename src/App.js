@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import WordFinder from "./WordFinder.js";
+import DictTest from "./DictTest.js";
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
         <h1 className="heading">Dictionary</h1>
       </header>
       <div className="container">
-        <WordFinder defaultKeyword="beautiful" />
+        <DictTest defaultKeyword="beautiful" />
       </div>
       <footer>
         This project was coded by{" "}
