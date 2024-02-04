@@ -23,8 +23,8 @@ export default function DictTest() {
         <input
           type="text"
           placeholder="Search..."
-          onChange={(e) => {
-            setSearchWord(e.target.value);
+          onChange={(event) => {
+            setSearchWord(event.target.value);
           }}
         />
         <button onClick={getMeaning}>Search</button>

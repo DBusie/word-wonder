@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import DictTest from "./DictTest.js";
+import DictTest from "./DictTest";
 
 export default function App() {
   return (
